@@ -30,5 +30,5 @@ public class Photo {
     private Integer position;
     private String mediaType;
     private String realPhotoName;
-    private Binary image;
+    private byte[] image;
 }
