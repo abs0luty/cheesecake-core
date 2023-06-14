@@ -1,6 +1,5 @@
 package com.product.service.utils.convertor;
 
-import com.product.service.dao.ProductRepository;
 import com.product.service.dto.photo.DraftProductDto;
 import com.product.service.dto.photo.PhotoResponse;
 import com.product.service.dto.photo.additional.FileCollectionDto;
