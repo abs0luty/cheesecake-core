@@ -60,6 +60,7 @@ The Internet Store Project with microservices architecture provides a robust and
 
 ## Creators
 
+- **abs0luty** - [GitHub](https://github.com/abs0luty)
 - **De_Santos** - [GitHub](https://github.com/De-Santos)
 - **1ulans1** - [GitHub](https://github.com/1ulans1)
 
