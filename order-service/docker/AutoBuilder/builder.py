@@ -4,7 +4,11 @@ import shutil
 import subprocess
 
 try:
+<<<<<<< HEAD
     with open("C:/CodeFile/JavaProjects/cheesecake-core/order-service/docker/AutoBuilder/config.json") as f:
+=======
+    with open("C:/CodeFile/JavaProjects/cheesecake-core/order-service/docker/AutoBuilder/config.json", "r") as f:
+>>>>>>> f01318f (add AutoBuild for `order-service`)
         config = json.load(f)
 except():
     print("Cannot find config.json file")
@@ -39,4 +43,7 @@ subprocess.run(config["kubernetes_update_command"], shell=True, check=True)
 podName = subprocess.run("kubectl get pods", shell=True, check=True, stdout=subprocess.PIPE, text=True).stdout.strip()
 podName = podName[1:-1]
 print(podName)
+<<<<<<< HEAD
 print("AUTO BUILD COMPLETED!")
+=======
+>>>>>>> f01318f (add AutoBuild for `order-service`)
