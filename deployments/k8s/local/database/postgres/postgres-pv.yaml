@@ -3,6 +3,7 @@ kind: PersistentVolume
 metadata:
   name: postgres-pv
 spec:
+<<<<<<< HEAD
   capacity:
     storage: 20Gi
   accessModes:
@@ -11,3 +12,16 @@ spec:
   storageClassName: slow
   hostPath:
     path: /data/postgres
+=======
+  storageClassName: ""
+  capacity:
+    storage: 60Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  hostPath:
+    path: /run/desktop/mnt/host/c/someDir/volumeDir
+    type: DirectoryOrCreate
+#  claimRef:
+#    name: postgres-pvc
+>>>>>>> bf9d80d (update pv/pvc `postgres-deploy`)
