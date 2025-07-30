@@ -1,6 +1,7 @@
-package com.product.service.exception.exceptions.photo.empty;
+package com.product.service.exception.exceptions.file.photo.empty;
 
-import com.product.service.exception.exceptions.photo.file.FileException;
+
+import com.product.service.exception.exceptions.file.photo.main.FileException;
 
 public class EmptyFileException extends FileException {
     public EmptyFileException() {

@@ -1,4 +1,4 @@
-package com.product.service.exception.exceptions.photo.found;
+package com.product.service.exception.exceptions.file.photo.found;
 
 public class FileOrderNotFoundException extends RuntimeException {
     public FileOrderNotFoundException() {

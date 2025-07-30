@@ -1,6 +1,7 @@
-package com.product.service.exception.exceptions.photo.exceeded;
+package com.product.service.exception.exceptions.file.photo.exceeded;
 
-import com.product.service.exception.exceptions.photo.file.FileException;
+
+import com.product.service.exception.exceptions.file.photo.main.FileException;
 
 public class FileSizeExceededException extends FileException {
     public FileSizeExceededException() {

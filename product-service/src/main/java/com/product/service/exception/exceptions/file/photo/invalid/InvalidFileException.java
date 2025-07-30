@@ -1,7 +1,7 @@
-package com.product.service.exception.exceptions.photo.invalid;
+package com.product.service.exception.exceptions.file.photo.invalid;
 
 
-import com.product.service.exception.exceptions.photo.file.FileException;
+import com.product.service.exception.exceptions.file.photo.main.FileException;
 
 public class InvalidFileException extends FileException {
     public InvalidFileException() {

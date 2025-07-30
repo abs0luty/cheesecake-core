@@ -1,7 +1,7 @@
-package com.product.service.exception.exceptions.photo.found;
+package com.product.service.exception.exceptions.file.photo.found;
 
 
-import com.product.service.exception.exceptions.photo.file.FileException;
+import com.product.service.exception.exceptions.file.photo.main.FileException;
 
 public class FileNotFoundException extends FileException {
 

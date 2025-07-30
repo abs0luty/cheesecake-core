@@ -1,7 +1,7 @@
-package com.product.service.exception.exceptions.photo.nullable;
+package com.product.service.exception.exceptions.file.photo.nullable;
 
 
-import com.product.service.exception.exceptions.photo.file.NullFileException;
+import com.product.service.exception.exceptions.file.photo.main.NullFileException;
 
 public class NullFileNameException extends NullFileException {
     public NullFileNameException() {

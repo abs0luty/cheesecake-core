@@ -1,4 +1,4 @@
-package com.product.service.exception.exceptions.photo.file;
+package com.product.service.exception.exceptions.file.photo.main;
 
 public class NullFileException extends RuntimeException {
     public NullFileException() {

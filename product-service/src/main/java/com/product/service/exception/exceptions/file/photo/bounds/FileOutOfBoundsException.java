@@ -1,6 +1,7 @@
-package com.product.service.exception.exceptions.photo.bounds;
+package com.product.service.exception.exceptions.file.photo.bounds;
 
-import com.product.service.exception.exceptions.photo.file.FileException;
+
+import com.product.service.exception.exceptions.file.photo.main.FileException;
 
 public class FileOutOfBoundsException extends FileException {
     public FileOutOfBoundsException() {
