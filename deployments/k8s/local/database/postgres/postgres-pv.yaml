@@ -22,6 +22,9 @@ spec:
   hostPath:
     path: /run/desktop/mnt/host/c/someDir/volumeDir
     type: DirectoryOrCreate
+<<<<<<< HEAD
 #  claimRef:
 #    name: postgres-pvc
 >>>>>>> bf9d80d (update pv/pvc `postgres-deploy`)
+=======
+>>>>>>> 51bb5fa (add backup job for `postgres-deploy`)
